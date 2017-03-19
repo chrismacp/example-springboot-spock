@@ -1,6 +1,6 @@
-package scot.macpherson.starter.springbootgroovy.ui
+package scot.macpherson.example.springbootspock.ui
 
-import scot.macpherson.starter.springbootgroovy.application.PlanetService
+import scot.macpherson.example.springbootspock.application.PlanetService
 
 import spock.lang.Specification
 

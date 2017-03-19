@@ -1,7 +1,7 @@
-package scot.macpherson.starter.springbootgroovy.infrastructure.repository;
+package scot.macpherson.example.springbootspock.infrastructure.repository;
 
-import scot.macpherson.starter.springbootgroovy.domain.entity.Planet;
-import scot.macpherson.starter.springbootgroovy.domain.repository.PlanetRepository;
+import scot.macpherson.example.springbootspock.domain.repository.PlanetRepository;
+import scot.macpherson.example.springbootspock.domain.entity.Planet;
 
 import org.springframework.stereotype.Repository;
 import java.util.HashMap;

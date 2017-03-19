@@ -1,8 +1,8 @@
-package scot.macpherson.starter.springbootgroovy.infrastructure
+package scot.macpherson.example.springbootspock.infrastructure
 
-import scot.macpherson.starter.springbootgroovy.domain.entity.Planet
-import scot.macpherson.starter.springbootgroovy.domain.repository.PlanetRepository
-import scot.macpherson.starter.springbootgroovy.infrastructure.repository.InMemoryPlanetRepository
+import scot.macpherson.example.springbootspock.domain.entity.Planet
+import scot.macpherson.example.springbootspock.domain.repository.PlanetRepository
+import scot.macpherson.example.springbootspock.infrastructure.repository.InMemoryPlanetRepository
 import spock.lang.Specification
 
 /**

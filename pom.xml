@@ -2,17 +2,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>scot.macpherson.starter.springbootgroovy</groupId>
-  <artifactId>springboot-groovy</artifactId>
+  <groupId>scot.macpherson.example.springbootspock</groupId>
+  <artifactId>springboot-spock</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>springboot-groovy</name>
+  <name>springboot-spock</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <start-class>space.amazedby.service.articleservice.App</start-class>
+    <start-class>scot.macpherson.example.springbootspock.App</start-class>
     <java.version>1.8</java.version>
     <spock.vesion>1.1</spock.vesion>
   </properties>

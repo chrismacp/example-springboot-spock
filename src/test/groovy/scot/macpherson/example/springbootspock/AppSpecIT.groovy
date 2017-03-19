@@ -1,4 +1,4 @@
-package scot.macpherson.starter.springbootgroovy
+package scot.macpherson.example.springbootspock
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest

@@ -1,6 +1,6 @@
-package scot.macpherson.starter.springbootgroovy.application
+package scot.macpherson.example.springbootspock.application
 
-import scot.macpherson.starter.springbootgroovy.domain.repository.PlanetRepository
+import scot.macpherson.example.springbootspock.domain.repository.PlanetRepository
 import spock.lang.Specification
 
 /**

@@ -1,4 +1,4 @@
-package scot.macpherson.starter.springbootgroovy.domain.entity
+package scot.macpherson.example.springbootspock.domain.entity
 
 import spock.lang.Specification
 

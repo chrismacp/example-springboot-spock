@@ -1,9 +1,9 @@
-package scot.macpherson.starter.springbootgroovy.application;
+package scot.macpherson.example.springbootspock.application;
 
-import scot.macpherson.starter.springbootgroovy.domain.entity.Planet;
+import scot.macpherson.example.springbootspock.domain.entity.Planet;
+import scot.macpherson.example.springbootspock.domain.repository.PlanetRepository;
 
 import org.springframework.stereotype.Service;
-import scot.macpherson.starter.springbootgroovy.domain.repository.PlanetRepository;
 
 
 /**

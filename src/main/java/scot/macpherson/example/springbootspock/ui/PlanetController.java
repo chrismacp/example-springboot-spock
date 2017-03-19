@@ -1,7 +1,7 @@
-package scot.macpherson.starter.springbootgroovy.ui;
+package scot.macpherson.example.springbootspock.ui;
 
-import scot.macpherson.starter.springbootgroovy.application.PlanetService;
-import scot.macpherson.starter.springbootgroovy.domain.entity.Planet;
+import scot.macpherson.example.springbootspock.application.PlanetService;
+import scot.macpherson.example.springbootspock.domain.entity.Planet;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

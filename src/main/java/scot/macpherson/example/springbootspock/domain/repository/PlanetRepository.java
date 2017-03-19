@@ -1,6 +1,6 @@
-package scot.macpherson.starter.springbootgroovy.domain.repository;
+package scot.macpherson.example.springbootspock.domain.repository;
 
-import scot.macpherson.starter.springbootgroovy.domain.entity.Planet;
+import scot.macpherson.example.springbootspock.domain.entity.Planet;
 
 /**
  * Repository to manage Planets.

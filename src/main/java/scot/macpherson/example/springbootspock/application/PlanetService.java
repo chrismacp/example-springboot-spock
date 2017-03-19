@@ -20,8 +20,6 @@ public class PlanetService {
 
     /**
      * {@inheritDoc}
-     * @param planetName
-     * @return
      */
     public Planet findOneByPlanetName(String planetName) {
         return this.planetRepository.findOnebyPlanetName(planetName);

@@ -1,8 +1,9 @@
 package scot.macpherson.starter.springbootgroovy.application;
 
-import scot.macpherson.starter.springbootgroovy.domain.Planet;
+import scot.macpherson.starter.springbootgroovy.domain.entity.Planet;
 
 import org.springframework.stereotype.Service;
+import scot.macpherson.starter.springbootgroovy.domain.repository.PlanetRepository;
 
 
 /**
@@ -11,7 +12,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class PlanetService {
 
+    PlanetRepository planetRepository;
+
+    public PlanetService(PlanetRepository planetRepository) {
+        this.planetRepository = planetRepository;
+    }
+
     public Planet findOneByPlanetName(String planetName) {
-        return null;
+        return this.planetRepository.findOnebyPlanetName(planetName);
     }
 }

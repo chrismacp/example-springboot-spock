@@ -1,8 +1,7 @@
 package scot.macpherson.starter.springbootgroovy.ui;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import scot.macpherson.starter.springbootgroovy.application.PlanetService;
-import scot.macpherson.starter.springbootgroovy.domain.Planet;
+import scot.macpherson.starter.springbootgroovy.domain.entity.Planet;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -13,4 +13,10 @@ public interface PlanetRepository {
      * @return A single Planet instance
      */
     Planet findOnebyPlanetName(String planetName);
+
+    /**
+     * Store a planet.
+     * @param planet Planet instance to be stored
+     */
+    void add(Planet planet);
 }

@@ -14,10 +14,10 @@ class PlanetServiceSpec extends Specification {
 
     def "should use the repository to fetch one Planet by name"() {
         when:
-            planetService.findOneByPlanetName("earth")
+        planetService.findOneByPlanetName("earth")
 
         then:
-            1 * planetRepoMock.findOnebyPlanetName("earth")
+        1 * planetRepoMock.findOnebyPlanetName("earth")
     }
 
 }

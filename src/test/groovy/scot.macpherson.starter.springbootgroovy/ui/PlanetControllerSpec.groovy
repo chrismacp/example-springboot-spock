@@ -14,9 +14,9 @@ class PlanetControllerSpec extends Specification {
 
     def "should ask the PlanetService for earth information"() {
         when:
-            planetController.getPlanet("earth")
+        planetController.getPlanet("earth")
 
         then:
-            1 * planetServiceMock.findOneByPlanetName('earth')
+        1 * planetServiceMock.findOneByPlanetName('earth')
     }
 }

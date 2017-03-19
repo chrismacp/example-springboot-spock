@@ -12,12 +12,17 @@ import scot.macpherson.starter.springbootgroovy.domain.repository.PlanetReposito
 @Service
 public class PlanetService {
 
-    PlanetRepository planetRepository;
+    private final PlanetRepository planetRepository;
 
-    public PlanetService(PlanetRepository planetRepository) {
-        this.planetRepository = planetRepository;
+    public PlanetService(PlanetRepository pRepository) {
+        this.planetRepository = pRepository;
     }
 
+    /**
+     * {@inheritDoc}
+     * @param planetName
+     * @return
+     */
     public Planet findOneByPlanetName(String planetName) {
         return this.planetRepository.findOnebyPlanetName(planetName);
     }

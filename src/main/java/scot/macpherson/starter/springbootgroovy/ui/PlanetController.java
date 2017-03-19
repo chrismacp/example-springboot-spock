@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("planets")
 public class PlanetController {
 
-    PlanetService planetService;
+    private final PlanetService planetService;
 
-    public PlanetController(PlanetService planetService) {
-        this.planetService = planetService;
+    public PlanetController(PlanetService pService) {
+        this.planetService = pService;
     }
 
     /**
@@ -30,7 +30,6 @@ public class PlanetController {
     @RequestMapping(value = "/{planetName}", method = RequestMethod.GET, produces = "application/xml")
     public Planet getPlanet(@PathVariable String planetName) {
 
-        Planet planet = this.planetService.findOneByPlanetName(planetName);
-        return planet;
+        return this.planetService.findOneByPlanetName(planetName);
     }
 }
